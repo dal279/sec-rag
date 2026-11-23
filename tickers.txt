@@ -1,0 +1,27 @@
+# One ticker per line. Mix of sectors so retrieval has to tell companies apart.
+# Optional second column: a CIK (SEC company ID) to use instead of SEC's ticker lookup.
+# Tech
+AAPL
+MSFT
+NVDA
+GOOGL
+AMZN
+META
+NFLX
+# Finance
+JPM
+GS
+BAC
+# Healthcare
+JNJ
+PFE
+UNH
+# Energy
+XOM 34088   # SEC's lookup now points XOM to a new holding company with no 10-Ks yet; 34088 = Exxon Mobil Corp
+CVX
+# Consumer
+WMT
+KO
+PG
+DIS
+TSLA

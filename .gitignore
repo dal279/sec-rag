@@ -1,0 +1,9 @@
+# Downloaded data is large and re-creatable; keep it out of git.
+data/raw/
+data/xbrl/
+data/processed/
+_to_delete/
+.DS_Store
+.venv/
+__pycache__/
+.env
